@@ -12,11 +12,11 @@ public class Cat extends Animal {
         Cat myCat = new Cat();
         Animal myAnimal = myCat;
         Animal.testClassMethod();
-        myAnimal.testInstanceMethod();
+        myAnimal.testInstanceMethod();//cat 클래스의 testInstanceMethod 호출한
         
         Dog myDog = new Dog();
         Animal myAnimal2 = myDog;
         Animal.testClassMethod();
-        myAnimal2.testInstanceMethod();
+        myAnimal2.testInstanceMethod();//dog 클래스의 testInstanceMethod 호출한
     }
 }
